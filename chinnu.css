@@ -1,0 +1,91 @@
+* {
+    margin: 20px
+}
+
+fieldset {
+    background-color: aqua;
+    border: double;
+    border-color: blueviolet;
+    width: 50%
+}
+
+form {
+    background-color: pink;
+    background-size: cover;
+    border-radius: 20px;
+    border-color: black;
+}
+
+h1 {
+    font-style: oblique;
+    font-size: xx-large;
+    border-color: antiquewhite;
+}
+
+input {
+    margin: 30px;
+    border-style: groove;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: right;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+iframe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 300px;
+}
+
+select {
+    border-style: dashed;
+    width: 100px;
+    height: 30px;
+    border-color: black;
+}
+
+.chinnu {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sravs {
+    margin-left: 200px;
+    font-size: x-large;
+}
+
+a {
+    display: inline-block
+}
+
+#sree {
+    text-align: right
+}
+
+legend {
+    color: brown
+}
+
+@media screen and(min-width: 480px)  {
+    fieldset {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    iframe {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: unset;
+    }
+  }
